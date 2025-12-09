@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/nino/School/School/Portfolio_github/InventoryManager/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/MagazijnApp.app/Contents/MonoBundle/libe_sqlite3.dylib

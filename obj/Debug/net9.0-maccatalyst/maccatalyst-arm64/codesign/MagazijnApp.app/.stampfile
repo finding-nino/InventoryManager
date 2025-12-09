@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/nino/School/School/Portfolio_github/InventoryManager/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/nino/School/School/Portfolio_github/InventoryManager/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/MagazijnApp.app

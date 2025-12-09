@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MagazijnApp.Views.LoginPage">
+
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="#004A4F"
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="loginpage.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="inventory management image" />
+
+            <Label
+                Text="Welcome to your login"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Entry
+                x:Name="UserNameEntry"
+                Placeholder="Username"
+                PlaceholderColor="White"
+                BackgroundColor="#E46E56"
+                WidthRequest="200"
+                TextChanged="OnEntryTextChanged">
+            </Entry>
+
+            <Entry
+                IsPassword="True"
+                x:Name="PasswordEntry"
+                Placeholder="Password"
+                PlaceholderColor="White"
+                BackgroundColor="#E46E56"
+                WidthRequest="200"
+                TextChanged="OnEntryTextChanged">
+            </Entry>
+
+            <Button
+                x:Name="LoginButton"
+                Text="Log in"
+                TextColor="White"
+                BackgroundColor="#E46E56"
+                Clicked="OnLoginClicked"
+                IsEnabled="True"
+                WidthRequest="200"></Button>
+
+            <Button
+                x:Name="RegisterButton"
+                Text="Register"
+                TextColor="White"
+                BackgroundColor="#E46E56"
+                Clicked="OnRegisterClicked"
+                IsEnabled="True"
+                WidthRequest="200"></Button>
+
+            
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+
+
+
+<!-- New Line: &#10; -->
