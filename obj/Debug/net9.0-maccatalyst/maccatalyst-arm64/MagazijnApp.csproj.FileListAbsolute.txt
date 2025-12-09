@@ -933,3 +933,4 @@
 /Users/nino/School/School/Portfolio_github/InventoryManager/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/MagazijnApp.pdb
 /Users/nino/School/School/Portfolio_github/InventoryManager/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/MagazijnApp.genruntimeconfig.cache
 /Users/nino/School/School/Portfolio_github/InventoryManager/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/ref/MagazijnApp.dll
+/Users/nino/School/School/Portfolio_github/InventoryManager/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/MagazijnApp.sourcelink.json
