@@ -18,7 +18,24 @@ Things I learnt:
 - Full CRUD operations based on user role.
 
 
-App should run when using the command:
+## Running on macOS
 
+### Prerequisites
+1. Install .NET 9 SDK 
+2. Install Visual Studio Code with C# extensions
+3. For MAUI, you might need to run: `dotnet workload install maui`
+
+### First-Time Setup on macOS
+Since macOS blocks unsigned apps, you need to:
+
+**Option A: Run with Terminal (Recommended)**
+```bash
+# Navigate to project folder
+cd InventoryManager
+# Restore dependencies
+dotnet restore
+
+# Build and run (macOS will ask for permission)
 dotnet build -t:Run -f net9.0-maccatalyst
-
+# OR for Mac Desktop:
+dotnet build -t:Run -f net9.0-macos
